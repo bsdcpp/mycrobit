@@ -132,7 +132,7 @@ export function IR_callbackUserV2(cb: (message: string) => void) {
 function valuotokeyConversion(): string {
     // let irdata: number;
 	let str: string;
-    // basic.showString("" + (irCode()))
+    basic.showString("" + (irCode()))
     switch (irCode()) {
         case 0xe916: str = '*'; break;
         case 0xf20d: str = '#'; break;
